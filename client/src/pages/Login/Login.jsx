@@ -12,7 +12,7 @@ function Login() {
       <div className='login-div'>
         <div className='button-div'>
           <div>
-          <h3>Hey Canine!!! </h3>
+          <h2>Hey Canine!!! </h2>
           </div>
           <div>
           <button className='googlelogin' onClick={handleGoogleAuth}>Sign In With Google</button>
