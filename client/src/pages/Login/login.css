@@ -14,7 +14,9 @@
     left: 0;
     top: 10em;
     left:60em;
-    
+    border: solid black;
+    background-color: black;
+    color: white;
     height: 50vh;
     border-radius: 50%;
     width:30vw;
