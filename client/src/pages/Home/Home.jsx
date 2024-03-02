@@ -51,13 +51,15 @@ function Home(userDetails) {
             </div>
           </div>
         </div>
-        <header>
+        <div className="factcontainer">
           <img
             src="https://images.unsplash.com/photo-1622810232121-f0aca4a230bb?q=80&w=3648&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             className="foreground"
           />
-          <h1 title>{randomquote}</h1>
-        </header>
+          <div className="example">
+          <h1 className="title">{randomquote}</h1>
+          </div>
+        </div>
         <div>
           <button className="otherquotebutton" onClick={handleToggleButton}>
             Some other quote pls!!
