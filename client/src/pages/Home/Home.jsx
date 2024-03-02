@@ -65,48 +65,7 @@ function Home(userDetails) {
             Some other quote pls!!
           </button>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
-          ducimus minima illum voluptatibus odit distinctio recusandae omnis
-          suscipit laborum obcaecati.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
-          ducimus minima illum voluptatibus odit distinctio recusandae omnis
-          suscipit laborum obcaecati.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
-          ducimus minima illum voluptatibus odit distinctio recusandae omnis
-          suscipit laborum obcaecati.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
-          ducimus minima illum voluptatibus odit distinctio recusandae omnis
-          suscipit laborum obcaecati.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
-          ducimus minima illum voluptatibus odit distinctio recusandae omnis
-          suscipit laborum obcaecati.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
-          ducimus minima illum voluptatibus odit distinctio recusandae omnis
-          suscipit laborum obcaecati.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
-          ducimus minima illum voluptatibus odit distinctio recusandae omnis
-          suscipit laborum obcaecati.
-        </p>
+        
       </div>
     </div>
   );
