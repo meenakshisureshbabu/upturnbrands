@@ -1,6 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
+const path = require('path')
 const passport = require('passport')
 const session = require('express-session')
 const axios = require('axios')
@@ -10,6 +11,9 @@ const authRoute = require("./routes/auth")
 const catRoute = require("./routes/catapi")
 const app = express()
 
+const buildPath = path.join(__dirname, 'build')
+
+app.use(express.static(buildPath))
 app.use(cors({
     origin:process.env.CORS_URL,
     methods:'GET,POST,DELETE,PUT',
