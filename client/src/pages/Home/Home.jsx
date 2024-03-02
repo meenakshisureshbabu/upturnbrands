@@ -39,13 +39,17 @@ function Home(userDetails) {
     <div>
       <div class="wrapper">
         <div className="headdiv">
-        <h1>Cat Whisperers</h1>
-        <div className="userbuttondiv">
-        <h4>Caninia User: {user.name}</h4>
-        <button className="logoutbutton" onClick={handleLogout}>
-          Logout
-        </button>
-        </div>
+          <h1>Cat Whisperers</h1>
+          <div className="userbuttondiv">
+            <div>
+            <h4>Caninia User: {user.name}</h4>
+            </div>
+            <div>
+            <button className="logoutbutton" onClick={handleLogout}>
+              Logout
+            </button>
+            </div>
+          </div>
         </div>
         <header>
           <img
@@ -59,6 +63,48 @@ function Home(userDetails) {
             Some other quote pls!!
           </button>
         </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
+          ducimus minima illum voluptatibus odit distinctio recusandae omnis
+          suscipit laborum obcaecati.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
+          ducimus minima illum voluptatibus odit distinctio recusandae omnis
+          suscipit laborum obcaecati.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
+          ducimus minima illum voluptatibus odit distinctio recusandae omnis
+          suscipit laborum obcaecati.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
+          ducimus minima illum voluptatibus odit distinctio recusandae omnis
+          suscipit laborum obcaecati.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
+          ducimus minima illum voluptatibus odit distinctio recusandae omnis
+          suscipit laborum obcaecati.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
+          ducimus minima illum voluptatibus odit distinctio recusandae omnis
+          suscipit laborum obcaecati.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          placeat officiis deserunt fugiat modi, quas natus itaque porro fuga
+          ducimus minima illum voluptatibus odit distinctio recusandae omnis
+          suscipit laborum obcaecati.
+        </p>
       </div>
     </div>
   );
