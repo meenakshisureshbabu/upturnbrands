@@ -3,7 +3,6 @@
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
- 
 }
 
 .factcontainer {
@@ -16,10 +15,10 @@
   z-index: -1;
 }
 
-.headdiv{
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
+.headdiv {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
 }
 
 .background {
@@ -71,8 +70,6 @@
   z-index: -1;
 }
 
-
-
 /* .example {
   height: 50px;	
   overflow: hidden;
@@ -88,19 +85,18 @@
    line-height: 50px; 
   text-align: center;
   transform: translateX(100%); */
-  
 
-   /* animation: example1 15s linear infinite;  */
- /* }  */
+/* animation: example1 15s linear infinite;  */
+/* }  */
 
- @keyframes animation{
-  0%{
+@keyframes animation {
+  0% {
     transform: translateX(100%);
   }
-  100%{ 
-    transform: translateX(-100%); 
+  100% {
+    transform: translateX(-100%);
   }
- }
+}
 
 section {
   font-size: 2rem;
@@ -109,7 +105,7 @@ section {
   color: white;
 }
 
-.userbuttondiv{
-    display: flex;
-    flex-direction: column;
+.userbuttondiv {
+  display: flex;
+  flex-direction: column;
 }

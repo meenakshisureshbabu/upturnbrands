@@ -1,26 +1,29 @@
-import React from 'react'
-import '../Login/login.css'
+import React from "react";
+import "../Login/login.css";
 
 function Login() {
-
-    const handleGoogleAuth = () => {
-        window.open(`${process.env.REACT_APP_API_URL}/auth/google/callback`,
-        "_self")
-    }
+  const handleGoogleAuth = () => {
+    window.open(
+      `${process.env.REACT_APP_API_URL}/auth/google/callback`,
+      "_self"
+    );
+  };
   return (
-    <div className='container'>
-      <div className='login-div'>
-        <div className='button-div'>
+    <div className="container">
+      <div className="login-div">
+        <div className="button-div">
           <div>
-          <h2>Hey Canine!!! </h2>
+            <h2>Hey Canine!!! </h2>
           </div>
           <div>
-          <button className='googlelogin' onClick={handleGoogleAuth}>Sign In With Google</button>
+            <button className="googlelogin" onClick={handleGoogleAuth}>
+              Sign In With Google
+            </button>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Login
+export default Login;

@@ -42,12 +42,12 @@ function Home(userDetails) {
           <h1>Cat Whisperers</h1>
           <div className="userbuttondiv">
             <div>
-            <h4 role="username">Caninia User: {user.name}</h4>
+              <h4 role="username">Caninia User: {user.name}</h4>
             </div>
             <div>
-            <button className="logoutbutton" onClick={handleLogout}>
-              Logout
-            </button>
+              <button className="logoutbutton" onClick={handleLogout}>
+                Logout
+              </button>
             </div>
           </div>
         </div>
@@ -57,7 +57,9 @@ function Home(userDetails) {
             className="foreground"
           />
           <div className="example">
-          <h1 className="title" role='title'>{randomquote}</h1>
+            <h1 className="title" role="title">
+              {randomquote}
+            </h1>
           </div>
         </div>
         <div>
@@ -65,7 +67,6 @@ function Home(userDetails) {
             Some other quote pls!!
           </button>
         </div>
-        
       </div>
     </div>
   );

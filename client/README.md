@@ -11,7 +11,7 @@
 4. [Screenshots](#screenshots)
 5. [Features](#features)
 6. [Reference](#reference)
-7. [Credits](#credits)
+
 
 
 ## About the Project
@@ -56,11 +56,11 @@ Create the react app
 
 * #### `npm run build`
 
-4. Add the API (Server) url in .env file
+4. Add the API (Server-http://localhost:8080) url in .env file
 
-5. Add the client ID and secret key in .env file in the server folder
+5. Add the google client ID and google secret key, Client URL as "http://localhost/3000 in .env file in the server folder
 
-6. In the project directory, you can run:
+6. In the client project directory, you can run:
 
 * #### `npm start`
 
@@ -73,7 +73,7 @@ Create the react app
 * #### `npm install express`
 * #### `npm install dotenv`
 
-8. Run the server in the port 3001
+8. Run the server in the port 8080 in the server folder
 
 * #### `nodemon server`
 
@@ -92,7 +92,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Build Status
 
-The cat fact response from the API will be stored in the in-memory.
+The cat fact response from the API will be stored in the in-memory array.
 
 ### Screenshots
 
