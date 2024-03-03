@@ -96,16 +96,12 @@ The cat fact response from the API will be stored in the in-memory.
 
 ### Screenshots
 
-![Home page](/public/Homepage.png)
+![Home page](./public/Homepage.png)
 
 
-![Main](/public/Mainpage.png)
+![Main](./public/Mainpage.png)
 
 The user can give email id along with the password. Once the credentials are valid, the use is logged in.
-
-![Dashboard](/public/Dashboard.png)
-
-This is the screen where the user can see the chart view of his/her expenses based on the month.
 
 ### Features
 
