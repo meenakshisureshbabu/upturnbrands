@@ -26,8 +26,6 @@ function App() {
     <div className="App">
       {user ? (
         <>
-          {/* <DataPage/> */}
-          {/* <NavBar user={user} setUser={setUser}/> */}
           <Routes>
             <Route path="/catfact" element={<Home user={user} />} />
             <Route path="/*" element={<Navigate to="/catfact" />} />

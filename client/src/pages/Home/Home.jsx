@@ -26,7 +26,6 @@ function Home(userDetails) {
       const { data } = await axios.get(url);
       console.log(data);
       setRandomquote(data);
-      //setUser(data.user._json)
     } catch (e) {
       console.log(e);
     }
